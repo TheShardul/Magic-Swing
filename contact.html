@@ -1,0 +1,82 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(to right, #ffffff, #d4fc79);
+            color: #444;
+            line-height: 1.8;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background: linear-gradient(135deg, #00b09b, #96c93d);
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2.5em;
+        }
+
+        main {
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 20px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background: #333;
+            color: white;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Contact Us</h1>
+    </header>
+    <div class="container">
+        <form autocomplete="off">
+            <h3><center>Contact form</center></h3>
+            <input type="text" placeholder="Your full name" name="Name">
+            <input type="text" placeholder="Your address" name="Address">
+            <input type="Email" placeholder="Your Email" name="E-mail">
+            <input type="text" placeholder="Your mobile no" name="Mobile no.">
+            <select>
+                <option>Select an option</option>
+                <option>Student</option>
+                <option>Working man/women</option>
+                <option>Business man/women</option>
+                <option>House wife</option>
+            </select>
+            
+            <textarea rows="5" placeholder="How can I help you?" name="Response"></textarea>
+
+            <button type="submit">send</button>
+            <button type="reset" class="reset">reset</button>
+        </form>
+    </div>
+    <main>
+        <p>If you have any questions or feedback, feel free to reach out to us. We’d love to hear from you!</p>
+        <p>Email: magicswing007@gmail.com</p>
+        <p>Phone: +91 </p>
+    </main>
+    <footer>
+        <p>© 2025 Magic Swing</p>
+    </footer>
+</body>
+</html>
